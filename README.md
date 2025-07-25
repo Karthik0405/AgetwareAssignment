@@ -3,7 +3,7 @@ A full-stack web application that allows banks or financial institutions to mana
 
 Tech Stack
   Frontend:
-    React.js
+    1)React.js
     React Router DOM
     Styled Components
     Fetch API
