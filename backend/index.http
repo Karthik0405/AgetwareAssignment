@@ -1,0 +1,24 @@
+POST http://localhost:3000/api/v1/loans
+Content-Type: application/json
+
+{
+  "customer_id": "12345",
+  "loan_amount": 30000,
+  "loan_period_years": 5,
+  "interest_rate_yearly": 7.5
+}
+
+### 
+POST http://localhost:3000/api/v1/loans/loan002/payments
+Content-Type: application/json
+
+{
+  "amount": 5000,
+  "payment_type": "CASH"
+}
+### 
+GET http://localhost:3000/api/v1/loans/loan001/ledger
+
+
+### 
+GET http://localhost:3000/api/v1/customers/cust001/overview/ 
